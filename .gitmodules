@@ -28,3 +28,6 @@
 [submodule "unicode"]
 	path = unicode
 	url = https://github.com/printfdebugging/unicode
+[submodule "glad"]
+	path = glad
+	url = https://github.com/printfdebugging/glad
