@@ -1,0 +1,30 @@
+[submodule "subprojects/glfw"]
+	path = glfw
+	url = https://github.com/glfw/glfw.git
+[submodule "subprojects/cglm"]
+	path = cglm
+	url = https://github.com/recp/cglm.git
+[submodule "subprojects/stb"]
+	path = stb
+	url = https://github.com/nothings/stb.git
+[submodule "freetype"]
+	path = freetype
+	url = https://github.com/freetype/freetype
+[submodule "cgltf"]
+	path = cgltf
+	url = https://github.com/jkuhlmann/cgltf
+[submodule "harfbuzz"]
+	path = harfbuzz
+	url = https://github.com/harfbuzz/harfbuzz
+[submodule "FlameGraph"]
+	path = FlameGraph
+	url = https://github.com/brendangregg/FlameGraph
+[submodule "fontconfig"]
+	path = fontconfig
+	url = https://github.com/debuffio/fontconfig
+[submodule "ffmpeg"]
+	path = ffmpeg
+	url = https://github.com/ffmpeg/ffmpeg
+[submodule "unicode"]
+	path = unicode
+	url = https://github.com/printfdebugging/unicode
