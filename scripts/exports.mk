@@ -1,7 +1,7 @@
 EXTERNALS 			= $(shell realpath .)
 EXTERNALS_CONFIG 	= $(shell realpath ./config)
-INSTALL_DIRECTORY = $(shell realpath ./install)
-BUILD_DIRECTORY 	= $(shell realpath ./build)
+INSTALL_DIRECTORY = $(shell realpath ../install)
+BUILD_DIRECTORY 	= $(shell realpath ../build)
 CLANGD_CONFIG 		= $(shell realpath ../.clangd)
 PLATFORM 			= $(shell uname -s)
 MESON_BUILD_TYPE 	= debug
