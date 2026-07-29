@@ -2,9 +2,6 @@ include ./scripts/exports.mk
 include ./scripts/build_wrappers.mk
 include ./scripts/system_dependencies.mk
 
-run: debug
-	./build/bin/editor
-
 $(eval $(call build_wrapper_meson,fontconfig))
 $(eval $(call build_wrapper_cmake,cglm))
 $(eval $(call build_wrapper_cmake,freetype))
